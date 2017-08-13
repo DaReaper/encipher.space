@@ -1,4 +1,8 @@
+# Encipher Space
 > Secure P2P chat web app using WebRTC datachannels.
+
+## Website
+[Encipher.space](https://encipher.space)
 
 ## Build Setup
 
