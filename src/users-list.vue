@@ -49,7 +49,7 @@ export default {
       }
     },
     broadcastMessage: function(msg) {
-      for (var i = 0; i < this.users_list; i++) {
+      for (var i = 0; i < this.users_list.length; i++) {
         if (msg == "") {
           this.users_list[i].dc.send(" ");
         } else {
