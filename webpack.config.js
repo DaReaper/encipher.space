@@ -60,8 +60,6 @@ if (process.env.NODE_ENV === 'production') {
   module.exports.plugins = (module.exports.plugins || []).concat([
     new CopyWebpackPlugin([
       {from: 'index.html'},
-      {from: 'manifest.json'},
-      {from: 'logo.png'},
 
       {from: 'node_modules/msgpack-lite/dist/msgpack.min.js', to: 'node_modules/msgpack-lite/dist/'},
       {from: 'node_modules/tweetnacl/nacl-fast.min.js', to: 'node_modules/tweetnacl/'},
