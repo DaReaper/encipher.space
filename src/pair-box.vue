@@ -22,10 +22,10 @@
 </template>
 
 <script>
-//let server_perm_pubkey = "9fb09b099df01ff49e7842a2d6ebeeb2bb50dfd3054b014e5aea8a945c705479";
-let server_perm_pubkey = "f77fe623b6977d470ac8c7bf7011c4ad08a1d126896795db9d2b4b7a49ae1045";
+let server_perm_pubkey = "2735ad9b04bb9392c7b752a7f7e68246a7e346f0aaad90cb18c8d678464f9934";
+//let server_perm_pubkey = "f77fe623b6977d470ac8c7bf7011c4ad08a1d126896795db9d2b4b7a49ae1045"; // server.saltyrtc.org dev
 
-let HOST = "server.saltyrtc.org"
+let HOST = "encipher.space"
 let PORT = 9287;
 
 let iceServers = [{ urls: [
